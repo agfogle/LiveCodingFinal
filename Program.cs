@@ -19,25 +19,25 @@ namespace LiveCodingFinal
 
             if (weather == "clear")
             {
-               totalCandy = trickTreaters + 0.10;
+               totalCandy = trickTreaters * 1.10;
                if (temp == 40)
                {
-                   totalCandy = (totalCandy - 0.05) * 3;
+                   totalCandy = (totalCandy * 0.95) * 3;
                }
 
                else if (temp == 50)
                {
-                   totalCandy = (totalCandy - 0) * 3;
+                   totalCandy = totalCandy * 3;
                }
 
                else if (temp == 60)
                {
-                   totalCandy = (totalCandy + 0.05) * 3;
+                   totalCandy = (totalCandy * 1.05) * 3;
                }
 
                else if (temp == 70)
                {
-                   totalCandy = (totalCandy + 0.20) * 3;
+                   totalCandy = (totalCandy * 1.20) * 3;
                }
 
                 return totalCandy;
@@ -45,25 +45,25 @@ namespace LiveCodingFinal
 
             else if (weather == "cloudy")
             {
-                totalCandy = (trickTreaters + 0) * 3;
+                totalCandy = trickTreaters;
                 if (temp == 40)
                 {
-                    totalCandy = (totalCandy - 0.05) * 3;
+                    totalCandy = (totalCandy * 0.95) * 3;
                 }
 
                 else if (temp == 50)
                 {
-                    totalCandy = (totalCandy - 0) * 3;
+                    totalCandy = totalCandy * 3;
                 }
 
                 else if (temp == 60)
                 {
-                    totalCandy = (totalCandy + 0.05) * 3;
+                    totalCandy = (totalCandy * 1.05) * 3;
                 }
 
                 else if (temp == 70)
                 {
-                    totalCandy = (totalCandy + 0.20) * 3;
+                    totalCandy = (totalCandy * 1.20) * 3;
                 }
 
                 return totalCandy;
@@ -71,15 +71,57 @@ namespace LiveCodingFinal
 
             else if (weather == "raining")
             {
-               totalCandy = (trickTreaters - 0.25) * 3;
+                totalCandy = trickTreaters * 0.75;
+                if (temp == 40)
+                {
+                    totalCandy = (totalCandy * 0.95) * 3;
+                }
+
+                else if (temp == 50)
+                {
+                    totalCandy = totalCandy * 3;
+                }
+
+                else if (temp == 60)
+                {
+                    totalCandy = (totalCandy * 1.05) * 3;
+                }
+
+                else if (temp == 70)
+                {
+                    totalCandy = (totalCandy * 1.20) * 3;
+                }
+
+                return totalCandy;
             }
 
             else if (weather == "full moon")
             {
-               totalCandy = (trickTreaters + 0.25) * 3;
+                totalCandy = trickTreaters * 1.25;
+                if (temp == 40)
+                {
+                    totalCandy = (totalCandy * 0.95) * 3;
+                }
+
+                else if (temp == 50)
+                {
+                    totalCandy = totalCandy * 3;
+                }
+
+                else if (temp == 60)
+                {
+                    totalCandy = (totalCandy * 1.05) * 3;
+                }
+
+                else if (temp == 70)
+                {
+                    totalCandy = (totalCandy * 1.20) * 3;
+                }
+
+                return totalCandy;
             }
 
-            return totalCandy;
+            
 
         }
     }

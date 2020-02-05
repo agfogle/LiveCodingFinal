@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ashleygreene/lc101/Live Coding Exercises/LiveCodingFinal/LiveCodingFinal/LiveCodingFinal.csproj": {}
+    "/Users/ashleygreene/lc101/LiveCodingFinal/LiveCodingFinal.csproj": {}
   },
   "projects": {
-    "/Users/ashleygreene/lc101/Live Coding Exercises/LiveCodingFinal/LiveCodingFinal/LiveCodingFinal.csproj": {
+    "/Users/ashleygreene/lc101/LiveCodingFinal/LiveCodingFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ashleygreene/lc101/Live Coding Exercises/LiveCodingFinal/LiveCodingFinal/LiveCodingFinal.csproj",
+        "projectUniqueName": "/Users/ashleygreene/lc101/LiveCodingFinal/LiveCodingFinal.csproj",
         "projectName": "LiveCodingFinal",
-        "projectPath": "/Users/ashleygreene/lc101/Live Coding Exercises/LiveCodingFinal/LiveCodingFinal/LiveCodingFinal.csproj",
+        "projectPath": "/Users/ashleygreene/lc101/LiveCodingFinal/LiveCodingFinal.csproj",
         "packagesPath": "/Users/ashleygreene/.nuget/packages/",
-        "outputPath": "/Users/ashleygreene/lc101/Live Coding Exercises/LiveCodingFinal/LiveCodingFinal/obj/",
+        "outputPath": "/Users/ashleygreene/lc101/LiveCodingFinal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ashleygreene/.config/NuGet/NuGet.Config"
